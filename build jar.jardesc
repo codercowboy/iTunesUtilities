@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="WINDOWS-1252"?>
+<jardesc>
+<jar path="C:/Documents and Settings/jason/My Documents/eclipse/ItunesUtilities/build/ItunesUtilities.jar"/>
+<options buildIfNeeded="true" compress="true" descriptionLocation="/ItunesUtilities/build jar.jardesc" exportErrors="false" exportWarnings="true" includeDirectoryEntries="true" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+<storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+<selectedProjects/>
+<manifest generateManifest="true" mainClassHandleIdentifier="=ItunesUtilities/src&lt;com.worldsworstsoftware.sample{ItunesUtilitiesUsageSample.java[ItunesUtilitiesUsageSample" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+<sealing sealJar="false">
+<packagesToSeal/>
+<packagesToUnSeal/>
+</sealing>
+</manifest>
+<selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+<javaElement handleIdentifier="=ItunesUtilities/src"/>
+</selectedElements>
+</jardesc>

@@ -1,0 +1,22 @@
+#!/bin/bash
+VERSION=1.0
+
+echo "removing old builds"
+cd "distributable zip files"
+rm *.zip #DANGEROUS, can't get rm "/distributable zip files/*" to work
+cd ..
+
+echo "building src distribution"
+TODAY=$(date +%m-%d-%Y)
+cd "../.."
+pwd
+zip -r "ItunesUtilities/packages/distributable zip files/ItunesUtilities.src.$VERSION.$TODAY.zip" "ItunesUtilities/"
+cd "ItunesUtilities/packages"
+
+echo "building jar distribution"
+cp "../build/ItunesUtilities.jar" "jar only/"
+cp "../../README.md" "jar only/"
+cd "jar only"
+zip -r "../distributable zip files/ItunesUtilities.jar.$VERSION.zip" *
+cd ..
+
